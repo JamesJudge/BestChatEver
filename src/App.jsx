@@ -18,7 +18,7 @@ const ChatApp = () => {
       />
 
 	{[...Array(1)].map((_, i) => (
-	<div className="App-contentPlaceholder" key={i}><iframe src="https://172.31.26.103:9000"></iframe></div>
+	<div className="App-contentPlaceholder" style={{height: (55) + 'em'}} key={i}><a name="startChat"></a><iframe style={{height: (100) + '%'}} src="https://192.168.1.46:9000" id="myChatFrame"></iframe></div>
       ))}
     </div>
   );
